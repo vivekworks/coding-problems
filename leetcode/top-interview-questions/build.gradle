@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.vivekts'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.0'
+}
+
+test {
+    useJUnitPlatform()
+}
